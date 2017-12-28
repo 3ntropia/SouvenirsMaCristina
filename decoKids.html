@@ -1,94 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Souvenirs Ma Cristina">
-<meta name="author" content="Martín Huber">
-<title>Souvenirs Ma Cristina</title>
-<link href="css/main.css" rel="stylesheet">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/souvenirs.css" rel="stylesheet">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Souvenirs Ma Cristina">
+    <meta name="author" content="Martín Huber">
+    <title>Souvenirs Ma Cristina</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/souvenirs.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script> 
+            $(function(){
+              $("#headerContent").load("header.html"); 
+            });
+            </script>
+            <script> 
+            $(function(){
+              $("#footerContent").load("footer.html"); 
+            });
+        </script> 
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand hidden-sm hidden-xs" href="/index.html"><img src="/img/mini-banner4.png" /></a>
-            <a class="navbar-brand hidden-lg hidden-md hidden-sm texto-blanco" href="/index.html"><h5 class="texto-blanco">Redes Sociales</h5></a>
-        </div>
-        <div  class="collapse navbar-collapse redes-sociales" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav ">
-                <li>
-                    <a  href="https://twitter.com/souvenirsmacris">
-                        <img class="hidden-sm hidden-xs" src="/img/twitter1.png" />
-                        <h5 class="hidden-md hidden-lg texto-blanco">Twitter</h5></a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/pages/Souvenirs-Ma-Cristina/145884252111179">
-                        <img class="hidden-sm hidden-xs" src="/img/facebook1.png">
-                        <h5 class="hidden-md hidden-lg texto-blanco">Facebook</h5></a>
-                </li>
-                <li>
-                    <a href="http://www.pinterest.com/m0453/">
-                        <img class="hidden-sm hidden-xs" src="/img/pinterest1.png" />
-                        <h5 class="hidden-md hidden-lg texto-blanco">Pinterest</h5></a>
-                </li>
-                <li>
-                    <a href="https://plus.google.com/u/0/+SouvenirsMaCristina/posts">
-                        <img class="hidden-sm hidden-xs" src="/img/blog1.png" />
-                        <h5 class="hidden-md hidden-lg texto-blanco">Google+</h5></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="#"><h5>Menu</h5></a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.html"><h5>HOME</h5></a>
-                </li>
-                <li>
-                    <a href="about.html"><h5>NOSOTROS</h5></a>
-                </li>
-                <li>
-                    <a href="productos.html"><h5>PRODUCTOS</h5></a>
-                </li>
-                 <li>
-                    <a href="compras.html"><h5>COMO COMPRAR</h5></a>
-                </li>
-                <li>
-                    <a href="http://www.souvenirsmacristina.com.ar/blog"><h5>BLOG</h5></a>
-                </li>
-                <li>
-                    <a href="contact.html"><h5>CONTACTO</h5></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-    
+<div id="headerContent"></div>
+
 <!-- Page Content -->
 <div class="container">
     <div class="row">
@@ -123,63 +59,7 @@
 </div>
 <br>
 
-<div class="navbar footer">
-    <div class="container-color">
-        <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
-            <div class="hidden-xs col-sm-6 col-lg-6 col-md-6 text-right">
-                <p>Redes Sociales</p>
-                <a href="https://twitter.com/souvenirsmacris">
-                    <img class="hidden-xs" src="/img/twitter2.png" />
-                </a>
-                <a href="https://www.facebook.com/pages/Souvenirs-Ma-Cristina/145884252111179">
-                    <img class="hidden-xs" src="/img/facebook2.png">
-                </a>
-                <a href="http://www.pinterest.com/m0453/">
-                    <img class="hidden-xs" src="/img/pinterest2.png" />
-                </a>
-                <a href="https://plus.google.com/u/0/+SouvenirsMaCristina/posts">
-                    <img class="hidden-xs" src="/img/blog2.png" />
-                </a>
-            </div>
-            <div class="hidden-lg hidden-md hidden-sm text-center">
-                <p>Redes Sociales</p>
-                <a href="https://twitter.com/souvenirsmacris">
-                    <h5 class="texto-blanco">Twitter</h5>
-                </a>
-                <a href="https://www.facebook.com/pages/Souvenirs-Ma-Cristina/145884252111179">
-                    <h5 class="texto-blanco">Facebook</h5>
-                </a>
-                <a href="http://www.pinterest.com/m0453/">
-                    <h5 class="texto-blanco">Pinterest</h5>
-                </a>
-                <a href="https://plus.google.com/u/0/+SouvenirsMaCristina/posts">
-                    <h5 class="texto-blanco">Google+</h5>
-                </a>
-            </div>
-            <div class="hidden-xs col-sm-6 col-lg-6 col-md-6 text-left">
-                <p>CONTACTANOS</p>
-                <span class="glyphicon glyphicon-phone" aria-hidden="true"> <strong>15-6599-0614</strong></span>
-                <br>
-                <span class="glyphicon glyphicon-earphone" aria-hidden="true"> <strong>4799-0454</strong></span>
-                <br>
-                <span class="glyphicon glyphicon-envelope" aria-hidden="true"> <strong><a href="mailto:souvenirsmacristina@gmail.com">souvenirsmacristina@gmail.com</a></strong>
-                </span>
-                <br>
-            </div>
-             <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
-                <p>CONTACTANOS</p>
-                <span class="glyphicon glyphicon-phone" aria-hidden="true"> <strong>15-6599-0614</strong></span>
-                <br>
-                <span class="glyphicon glyphicon-earphone" aria-hidden="true"> <strong>4799-0454</strong></span>
-                <br>
-                <span class="glyphicon glyphicon-envelope" aria-hidden="true"> <strong><a href="mailto:souvenirsmacristina@gmail.com">souvenirsmacristina@gmail.com</a></strong>
-                </span>
-                <br>
-            </div>
-        </div>
-    </div>
-</div>
-    <p class="text-center">Copyright &copy; Souvenirs Ma Cristina 2016 - Aviso legal - Desarrollado por <a href="https://ar.linkedin.com/in/martinhuber29">MH</a>.</p>
+<div id="footerContent"></div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jrain.js"></script>
     <script>
@@ -192,5 +72,5 @@
   ga('send', 'pageview');
 
 </script>
-    </body>
+</body>
 </html>
